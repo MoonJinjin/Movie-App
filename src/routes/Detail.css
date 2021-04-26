@@ -1,0 +1,54 @@
+.detail {
+    margin-bottom: 70px;
+    font-weight: 300;
+    padding: 120px;
+    border-radius: 5px;
+    color: #9899a1;
+    height: 100%;
+}
+  
+  .detail a {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    position: relative;
+    top: -50px;
+    max-width: 450px;
+    width: 100%;
+    margin-right: 30px;
+    float: left;
+}
+  
+  .detail__title,
+  .detail__year {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .detail__title {
+    margin-bottom: 5px;
+    font-size: 37px;
+    color: #2c2c2c;
+  }
+  
+  .detail__year {
+    margin-right: 10px;
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  .detail__genres {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .detail__summary,
+  .detail__genres li {
+      font-size: 24px;
+  }
